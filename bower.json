@@ -1,0 +1,26 @@
+{
+  "name": "html-boilerplate",
+  "homepage": "https://github.com/fridzema/html-boilerplate",
+  "description": "Modern approach html boilerplate",
+  "main": "index.html",
+  "keywords": [
+    "html",
+    "boilerplate"
+  ],
+  "authors": [
+    "Robert Fridzema"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ress": "^1.2.2",
+    "jquery": "^3.2.1",
+    "swiper": "^3.4.2"
+  }
+}

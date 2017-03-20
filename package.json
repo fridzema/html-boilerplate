@@ -1,0 +1,29 @@
+{
+  "name": "html-boilerplate",
+  "version": "1.0.0",
+  "description": "Modern approach html boilerplate",
+  "main": "index.html",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fridzema/html-boilerplate.git"
+  },
+  "keywords": [
+    "html",
+    "boilerplate"
+  ],
+  "author": "Robert Fridzema",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fridzema/html-boilerplate/issues"
+  },
+  "homepage": "https://github.com/fridzema/html-boilerplate#readme",
+  "devDependencies": {
+    "laravel-mix": "^0.8.8"
+  }
+}
